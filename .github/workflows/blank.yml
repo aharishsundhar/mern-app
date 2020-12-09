@@ -38,4 +38,4 @@ jobs:
           cd myapp
           npm install && npm run build
       - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./build/ s3://harish321 --delete
+        run: aws s3 sync ./home/runner/work/mern-app/mern-app/myapp/build/ s3://harish321 --delete
