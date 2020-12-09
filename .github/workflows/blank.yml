@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Create react app
         run: |
-          npx create-react-app client,
+          npx create-react-app mernapp,
           cd client,
           npm  install && npm run build,
         
